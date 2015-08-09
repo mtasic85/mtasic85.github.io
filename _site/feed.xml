@@ -6,9 +6,61 @@
 </description>
     <link>http://mtasic85.github.io/</link>
     <atom:link href="http://mtasic85.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 13 Jun 2015 12:21:15 +0200</pubDate>
-    <lastBuildDate>Sat, 13 Jun 2015 12:21:15 +0200</lastBuildDate>
+    <pubDate>Sun, 09 Aug 2015 12:49:57 +0200</pubDate>
+    <lastBuildDate>Sun, 09 Aug 2015 12:49:57 +0200</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Language Virtual Machine</title>
+        <description>&lt;p&gt;I will start here series about language virtual machines. I will first show native examples in C and in few other dynamic languages such as Python, Ruby and Lua. Their speeds will be compared.&lt;/p&gt;
+
+&lt;p&gt;After we have insight into what kind of speeds we expect from which programming language implementation, we will try to explore approaches in VM design and implementation.&lt;/p&gt;
+
+&lt;p&gt;Our main goal is to show speed of the simplest but functional possible VM’s and some basic optimizations.&lt;/p&gt;
+
+&lt;p&gt;VM’s will be written in C, C99 and in some cases C11 standard.&lt;/p&gt;
+
+&lt;p&gt;System (my home desktop computer) on which benchmarks will be run is following:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;lscpu 
+Architecture:          x86_64
+CPU op-mode&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;s&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;:        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;s&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;:                4
+On-line CPU&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;s&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; list:   0-3
+Thread&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;s&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; per core:    1
+Core&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;s&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; per socket:    4
+Socket&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;s&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;:             1
+NUMA node&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;s&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;:          1
+Vendor ID:             AuthenticAMD
+CPU family:            18
+Model:                 1
+Model name:            AMD A8-3850 APU with Radeon&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;tm&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; HD Graphics
+Stepping:              0
+CPU MHz:               2900.000
+CPU max MHz:           2900.0000
+CPU min MHz:           800.0000
+BogoMIPS:              5792.15
+Virtualization:        AMD-V
+L1d cache:             64K
+L1i cache:             64K
+L2 cache:              1024K
+NUMA node0 CPU&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;s&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;:     0-3
+
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;uname -nsrm
+Linux arch 4.1.4-1-ARCH x86_64
+
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;cat /proc/meminfo &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; grep MemTotal
+MemTotal:        &lt;span class=&quot;m&quot;&gt;8170204&lt;/span&gt; kB&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+</description>
+        <pubDate>Sun, 09 Aug 2015 14:47:00 +0200</pubDate>
+        <link>http://mtasic85.github.io/vm/2015/08/09/language-virtual-machine.html</link>
+        <guid isPermaLink="true">http://mtasic85.github.io/vm/2015/08/09/language-virtual-machine.html</guid>
+        
+        
+        <category>vm</category>
+        
+      </item>
     
       <item>
         <title>Loops</title>
