@@ -67,7 +67,7 @@ minima:
     
     gitlab:
      - username: mtasic85
-       instance: github.com
+       instance: gitlab.com
 
     youtube: MarkoTasic
     
