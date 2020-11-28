@@ -1,29 +1,17 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "My YouTube Channel"
 date:   2020-11-28 17:38:26 +0100
-categories: jekyll update
+categories: update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+I started [YouTube channel][youtube] in 2020 during [COVID-19 pandemics][covid19]. It was perfect timing for me to finally align my thoughts. After years of thinking, I just started recording and publishing videos. My friends and colleagues asked me for years to record my talks and publish it for others to see. All opinions and advices are my own, and take them with grain of salt, I am just a regular guy doing interesting things online.
 
-Jekyll requires blog post files to be named according to the following format:
+I cover broad topics from computer science and engineering. Including BSD, Linux, data structures, algorithms, machine learning, programming languages design and implementation, etc. Please check my [YouTube][youtube] channel and subscribe if you like topics that I cover. Feel free to leave comments and suggestions.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nhe9FRPkmWw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+I am also active on [Twitter][twitter], so you can get in touch with me over there as well.
 
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+[youtube]: https://youtube.com/MarkoTasic
+[twitter]: https://twitter.com/mtasic85
+[covid19]: https://en.wikipedia.org/wiki/COVID-19_pandemic
