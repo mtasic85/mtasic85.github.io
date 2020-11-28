@@ -5,6 +5,8 @@ date:   2015-08-09 12:47:00
 categories: vm
 ---
 
+Hi there,
+
 I will start here series about language virtual machines. I will first show native examples in C and in few other dynamic languages such as Python, Ruby and Lua. Their speeds will be compared.
 
 After we have insight into what kind of speeds we expect from which programming language implementation, we will try to explore approaches in VM design and implementation.
