@@ -13,7 +13,7 @@ $ gem install jekyll bundler
 In `~/.bashrc` edit `PATH` env var:
 ```
 ...
-PATH=$PATH:/home/mtasic-arch/.gem/ruby/2.7.0/bin
+PATH=$PATH:$HOME/.local/share/gem/ruby/3.0.0/bin
 ```
 
 
