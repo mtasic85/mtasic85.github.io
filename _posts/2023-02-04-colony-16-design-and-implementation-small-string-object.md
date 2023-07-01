@@ -11,4 +11,5 @@ As the video progresses, I delve into the concept of 'immortal objects'. These a
 
 In conclusion, this video provides a comprehensive overview of the design and implementation of small string objects in Colony. It offers valuable insights into garbage collection, reference counting, and the concept of immortal objects. I believe it's a must-watch for anyone interested in the inner workings of programming languages.
 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/GY-cHUanWEs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
