@@ -2,7 +2,7 @@
 layout: post
 title: "Colony #15 - Design and Implementation - kind/value/obj"
 date: 2023-02-03 20-09-18
-categories: update
+categories: colony
 ---
 
 I dive deep into the development of the Colony Programming Language, focusing on the implementation of C-level objects (co_obj_t) and other core types. In the beginning, I discuss the key components of the language, such as the object model, syntax, grammar, and parser. I explain the importance of packing these components in a way that minimizes memory usage and maximizes access speed. I also touch on the concept of reference counting, which is a form of garbage collection used in the language. The discussion then moves on to the different types of objects in the language, including bytes, strings, arrays, dictionaries, and functions, among others.

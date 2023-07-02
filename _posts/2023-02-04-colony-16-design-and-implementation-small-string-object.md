@@ -2,7 +2,7 @@
 layout: post
 title: "Colony #16 - Design and Implementation - Small String Object"
 date: 2023-02-04 17-34-46
-categories: update
+categories: colony
 ---
 
 I explore the complexities of garbage collection, reference counting, and the intriguing concept of immortal objects in the Colony programming language. I kick off the discussion by simplifying the model, removing bytes, and focusing on UTF-8 encoded strings, which are more commonly used by developers. I also introduce the concept of 'small string objects', strings that can fit within 128 bits. The first 64 bits are reserved for the 'kind' of the object, and the remaining 64 bits are used for the string itself. This optimization is particularly applicable to strings because they are immutable by default.
